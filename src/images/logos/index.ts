@@ -14,6 +14,7 @@ import NSNLogo from "./nsn.svg";
 import ParabolLogo from "./parabol.svg";
 import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
+import PepsicoLogo from "./pepsico.png";
 import Minimal from "./minimal.svg";
 
 export {
@@ -34,4 +35,5 @@ export {
   TastyCloudLogo,
   YearProgressLogo,
   Minimal,
+  PepsicoLogo
 };

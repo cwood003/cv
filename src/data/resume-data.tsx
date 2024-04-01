@@ -14,18 +14,19 @@ import {
   MonitoLogo,
   NSNLogo,
   ParabolLogo,
+  PepsicoLogo,
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Cole Wood",
+  initials: "CW",
+  location: "Salt Lake City, UT, MT",
+  locationLink: "https://www.google.com/maps/place/Salt+Lake+City",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Blah blah passionate about data etc",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
@@ -34,84 +35,78 @@ export const RESUME_DATA = {
     email: "bartosz.jarocki@hey.com",
     tel: "+48530213401",
     social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
+      // {
+      //   name: "GitHub",
+      //   url: "https://github.com/BartoszJarocki",
+      //   icon: GitHubIcon,
+      // },
       {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/bjarocki/",
         icon: LinkedInIcon,
       },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/BartoszJarocki",
+      //   icon: XIcon,
+      // },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
+      school: "University of Arkansas",
       degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      start: "2016",
+      end: "2019",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
+      company: "PepsiCo",
+      // link: "https://parabol.co",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
+      title: "Sr Data Analyst → Associate Manager",
+      logo: PepsicoLogo,
       start: "2021",
       end: "2024",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
     {
-      company: "Clevertech",
+      company: "The Hershey Company",
       link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      badges: ["Bentonville, Ar", "Cincinnati, OH","Remote"],
+      title: "Category Analyst Walmart, Take Home → Category Analyst Kroger, Seasons → Data Product Manager",
       logo: ClevertechLogo,
-      start: "2015",
+      start: "2019",
       end: "2021",
       description:
         "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
     },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
-    },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
+    "Python",
+    "Apache Spark: PySpark, Spark SQL",
+    "SQL",
+    "Cloud Data Architecture: Azure, AWS, GCP",
+    "Data Vizualization: Tableau, Streamlit, Plotly, Matplotlib, Seaborn",
+    "Azure Data Factory",
+    "Databricks",
+    "Snowflake",
     "Node.js",
     "GraphQL",
     "Relay",
     "WebRTC",
+  ],
+  references: [
+    {
+      people: "Kara Pellegrino",
+      info: "Director of Something, Pepsico Email:Testemail@pepsico.com Phone: 555-555-5555",
+    },
+    {
+      people: "Chad Doremus",
+      info: "Director of Something, The Hershey Company\nEmail"
+    }
   ],
   projects: [
     {

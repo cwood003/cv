@@ -183,6 +183,23 @@ export default function Page() {
             })}
           </div>
         </Section>
+        <Section>
+          <h2 className="text-xl font-bold">References</h2>
+          {RESUME_DATA.references.map((references) => {
+            return (
+              <Card key={references.people}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {references.people}
+                    </h3>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{references.info}</CardContent>
+              </Card>
+            );
+          })}
+        </Section>
       </section>
 
       <CommandMenu
