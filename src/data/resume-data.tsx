@@ -29,7 +29,7 @@ export const RESUME_DATA = {
     "Blah blah passionate about data etc",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/54416716?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
     email: "bartosz.jarocki@hey.com",
@@ -55,7 +55,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "University of Arkansas",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      degree: "Bachelor's Degree in Computer Science",
       start: "2016",
       end: "2019",
     },
@@ -69,8 +69,10 @@ export const RESUME_DATA = {
       logo: PepsicoLogo,
       start: "2021",
       end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+      description:[
+        "Managed the data pipeline for the Walmart team, including data ingestion, transformation, and storage in Snowflake",
+        "Developed and maintained data models in Snowflake to support the data pipeline",
+      ]
     },
     {
       company: "The Hershey Company",
@@ -80,32 +82,31 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "2019",
       end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      description:[
+        "Managed the data pipeline for the Walmart team, including data ingestion, transformation, and storage in Snowflake",
+        "Developed and maintained data models in Snowflake to support the data pipeline",
+      ]
     },
   ],
   skills: [
     "Python",
     "Apache Spark: PySpark, Spark SQL",
     "SQL",
-    "Cloud Data Architecture: Azure, AWS, GCP",
+    "Cloud Data Architecture: Azure",
     "Data Vizualization: Tableau, Streamlit, Plotly, Matplotlib, Seaborn",
     "Azure Data Factory",
     "Databricks",
     "Snowflake",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Project Management using implementing Agile DevOps",
   ],
   references: [
     {
       people: "Kara Pellegrino",
-      info: "Director of Something, Pepsico Email:Testemail@pepsico.com Phone: 555-555-5555",
+      info: "Director of Something, Pepsico | Email:Testemail@pepsico.com | Phone: 555-555-5555",
     },
     {
       people: "Chad Doremus",
-      info: "Director of Something, The Hershey Company\nEmail"
+      info: "Director of Something, The Hershey Company | Email: test@email.com | Phone: 555-555-5555",
     }
   ],
   projects: [
