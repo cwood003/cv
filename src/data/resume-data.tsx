@@ -26,14 +26,14 @@ export const RESUME_DATA = {
   location: "Salt Lake City, UT, MT",
   locationLink: "https://www.google.com/maps/place/Salt+Lake+City",
   about:
-    "Blah blah passionate about data etc",
+    "Data Strategy | Analytics | Data Products | Media Data ROI",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "In my career I have developed a passion for data and analytics which originated from a gamut of business problems in the CPG industry. My experience includes translating business issues into practical data solutions, strategically developing the data solution archictecture, implementing that solution from a hands-on perspective, perfoming analysis on the resulting data, and communicating those insights back to the business. I have been deeply involved in each step of the full analytics/data solutions/strategy lifecycle specifically relating to the CPG industry and media data business umbrellas. I believe these experiences have given me a unique perspective on how to approach data problems and how to communicate the results back to the business in a way that is actionable and impactful.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54416716?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  // personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "cole.wood@pepsico.com",
+    tel: "903-738-3430",
     social: [
       // {
       //   name: "GitHub",
@@ -42,7 +42,7 @@ export const RESUME_DATA = {
       // },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "www.linkedin.com/in/cole-wood-6a8416149",
         icon: LinkedInIcon,
       },
       // {
@@ -70,8 +70,11 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:[
-        "Managed the data pipeline for the Walmart team, including data ingestion, transformation, and storage in Snowflake",
-        "Developed and maintained data models in Snowflake to support the data pipeline",
+        "Fetch Data Analysis",
+        "Mdeia Data Hub",
+        "Sales Based Outcomes",
+        "Harmonya",
+        "Adhoc analytics and data expertise"
       ]
     },
     {
@@ -83,8 +86,9 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2021",
       description:[
-        "Managed the data pipeline for the Walmart team, including data ingestion, transformation, and storage in Snowflake",
-        "Developed and maintained data models in Snowflake to support the data pipeline",
+        "Implemented a one-stop-shop data platform for all commercial point of sale data sources (Walmart, Target, Kroger, etc.) built on top of Azure, Databricks, and Tableau. My responsibilites included data ingestion/transformation/vizualization as well as client management. Additionaly, I assisted from a product management perspective in the development of the platform and formulated strategies to drive the change from legacy systems and ideas to the new process.",
+        "Responsible for the Kroger seasonal candy sales strategy and execution. Including supply chain optimization, pricing strategy, promotional strategy, and sales forecasting.",
+        "Augmented Walmart's Take Home candy modular strategy. This role was particularly focused on space planning and assortment optimization."
       ]
     },
   ],
@@ -111,36 +115,34 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Datonomy",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Custom Product Taxonomy",
+        "ML",
+        "Data Modeling",
+        "3rd Party Partner Integration",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
-      link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
-      },
+      description: "A process to automatically classify products into a custom taxonomy using machine learning models.",
+      logo: PepsicoLogo,
+      // link: {
+      //   label: "consultly.com",
+      //   href: "https://consultly.com/",
+      // },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Media Data Hub",
+      techStack: ["One-stop-shop", "Vendor replacement", "Data Engineering", "Architecture + Strategy + Governance"],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
+        "Data Warehouse containing all of the media performance reporting data for PepsiCo... built as a vendor replacement to save money and improve data quality and user experience.",
+      logo: PepsicoLogo,
+      // link: {
+      //   label: "monito.dev",
+      //   href: "https://monito.dev/",
+      // },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Sales Based Outcomes",
+      techStack: ["Industry leading", "Cleanroom", "ML", "Data Engineering"],
       description:
         "My personal website and blog. Built with Next.js and Notion API",
       logo: JarockiMeLogo,
@@ -148,127 +150,6 @@ export const RESUME_DATA = {
         label: "github.com",
         href: "https://jarocki.me/",
       },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
-      link: {
-        label: "github.com",
-        href: "https://parabol.co/",
-      },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
