@@ -28,7 +28,7 @@ export const RESUME_DATA = {
   about:
     "Data Strategy | Analytics | Data Products | Media Data ROI",
   summary:
-    "In my career I have developed a passion for data and analytics which originated from a gamut of business problems in the CPG industry. My experience includes translating business issues into practical data solutions, strategically developing the data solution archictecture, implementing that solution from a hands-on perspective, perfoming analysis on the resulting data, and communicating those insights back to the business. I have been deeply involved in each step of the full analytics/data solutions/strategy lifecycle specifically relating to the CPG industry and media data business umbrellas. I believe these experiences have given me a unique perspective on how to approach data problems and how to communicate the results back to the business in a way that is actionable and impactful.",
+    "In my career I have developed a passion for data and analytics which originated from a gamut of business problems in the Consumer Packaged Goods (CPG) industry. My experience includes translating business issues into practical data solutions, strategically developing the data solution archictecture, implementing that solution from a hands-on perspective, perfoming analysis on the resulting data, and communicating those insights back to the business. I have been deeply involved in each step of the full analytics/data solutions/strategy lifecycle specifically relating to the CPG industry and media data business umbrellas. I believe these experiences have given me a unique perspective and advanced interdiscplinary communication skills that allows me to bridge the gap between the business and technology teams.",
   avatarUrl: "https://avatars.githubusercontent.com/u/54416716?v=4",
   // personalWebsiteUrl: "https://jarocki.me",
   contact: {
@@ -70,11 +70,11 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2024",
       description:[
-        "Fetch Data Analysis",
-        "Mdeia Data Hub",
-        "Sales Based Outcomes",
-        "Harmonya",
-        "Adhoc analytics and data expertise"
+        "Completed data quality and hygiene assessment on consumer loyalty vendors data which resulted in a contract renegotiation saving our organization 15% annually (3.5M in '23)",
+        "Organized and developed the data flows/transformations for something we called our 'Media Data Hub', a replacement for a legacy media reporting system that yielding a 900K decrease in annual vendor costs and with the in-housing effort PepsiCo was able to take on more creative tasks in the reporting.",
+        "Developed strategy for and implemented sales based outcome media ROI framework where consumer conversion data was directly linked to media exposure allowing PepsiCo to evaluate campaigns by KPIs like Sales Lift, Household penetration lift, and Incremental Buy Rate.",
+        "Organized custom product taxonomy for PepsiCo's product portfolio created independently of syndicated partners. This allowed for our catalog to become shareable externally and ensure contract compliance with our syndicated partners.",
+        "Responsible for varius day-to-day adhoc data analysis and development tasks including api integrations, ML model development, and data engineering."
       ]
     },
     {
@@ -87,7 +87,7 @@ export const RESUME_DATA = {
       end: "2021",
       description:[
         "Implemented a one-stop-shop data platform for all commercial point of sale data sources (Walmart, Target, Kroger, etc.) built on top of Azure, Databricks, and Tableau. My responsibilites included data ingestion/transformation/vizualization as well as client management. Additionaly, I assisted from a product management perspective in the development of the platform and formulated strategies to drive the change from legacy systems and ideas to the new process.",
-        "Responsible for the Kroger seasonal candy sales strategy and execution. Including supply chain optimization, pricing strategy, promotional strategy, and sales forecasting.",
+        "Responsible for strategy and execution of the Kroger seasonal candy sales. This includes supply chain optimization, pricing strategy, promotional strategy, and sales forecasting.",
         "Augmented Walmart's Take Home candy modular strategy. This role was particularly focused on space planning and assortment optimization."
       ]
     },
@@ -101,16 +101,20 @@ export const RESUME_DATA = {
     "Azure Data Factory",
     "Databricks",
     "Snowflake",
-    "Project Management using implementing Agile DevOps",
+    "Project Management with Agile in DevOps",
   ],
   references: [
     {
       people: "Kara Pellegrino",
-      info: "Director of Something, Pepsico | Email:Testemail@pepsico.com | Phone: 555-555-5555",
+      info: "Director Marketing Science, Pepsico | Email:kara.pellegrino@pepsico.com | Phone: 555-555-5555",
     },
     {
       people: "Chad Doremus",
-      info: "Director of Something, The Hershey Company | Email: test@email.com | Phone: 555-555-5555",
+      info: "Sr Manager Data Strategy, The Hershey Company | Phone: 717-495-0350",
+    },
+    {
+      people: "Greg Carr",
+      info: "Sr Director Innovation, Pepsico | Email: carrgc@gmail.com | Phone: 717-495-0350",
     }
   ],
   projects: [
@@ -144,12 +148,12 @@ export const RESUME_DATA = {
       title: "Sales Based Outcomes",
       techStack: ["Industry leading", "Cleanroom", "ML", "Data Engineering"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
+        "Bleeding edge media ROI framework that links consumer conversion data to media exposure data to evaluate campaigns by KPIs like Sales Lift, Household penetration lift, and Incremental Buy Rate.",
+      // logo: JarockiMeLogo,
+      // link: {
+      //   label: "github.com",
+      //   href: "https://jarocki.me/",
+      // },
     },
   ],
 } as const;
